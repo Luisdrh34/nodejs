@@ -12,3 +12,13 @@ public int mayor(int a, int b) {
 public String saludar(String nombre) {
     return "Hola, " + nombre + "!";
 }
+public int factorial(int n) {
+    if (n < 0) {
+        throw new IllegalArgumentException("El número debe ser no negativo.");
+    }
+    int resultado = 1;
+    for (int i = 2; i <= n; i++) {
+        resultado *= i;
+    }
+    return resultado;
+}
