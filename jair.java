@@ -9,3 +9,6 @@ public boolean esPar(int n) {
 public int mayor(int a, int b) {
     return (a > b) ? a : b;
 }
+public String saludar(String nombre) {
+    return "Hola, " + nombre + "!";
+}
